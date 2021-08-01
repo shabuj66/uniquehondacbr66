@@ -1,0 +1,117 @@
+/* ---------============= google fonts ==================-------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+/* ---=========== custom css ------=============== */
+body{
+   padding: 0;
+   margin: 0;
+   font-family: 'Poppins', sans-serif;
+}
+.primary-bg{
+   background: #264653;
+}
+.white-color{
+   color: #ffffff;
+}
+.main-btn{
+   display:block;
+   font-size: 16px;
+   text-decoration: none;
+   border: none;
+   background: #e76f51;
+   color: #ffffff;
+   padding: 10px 40px;
+   border-radius: 5px;  
+   transition: 0.5s; 
+}
+.main-btn:hover{
+   background: #ffffff;
+   color: #e76f51;
+}
+.gray-scale{
+   filter: grayscale(1);
+   -webkit-filter: grayscale(1);
+}
+.nav-link:focus, .nav-link:hover {
+   color: #e76f51 !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+   padding-right: 1.5rem !important;
+   color: #ffffff !important;
+}
+.logo{
+   color: #e76f51 !important;   
+}
+.logo-h{
+   color: #ffffff !important;
+}
+
+/* ==========----------headr css start================---------- */
+.banner-p{   
+   color:#a5b2b8;
+   font-size: 14px;
+   line-height: 21px;
+   letter-spacing: 1px;
+   font-weight: normal;
+}
+
+/* ==========----------headr css ends================---------- */
+/* ==============------main css start =========----------- */
+/* ---------==============fetured css start ---------------============ */
+.fetures-content span{
+   color: #e76f51;
+}
+.fetures-content p{
+   color: #e76f51;
+}
+/* ===============clients css start ==================== */
+.clients-content span{
+   color: #e76f51;
+}
+.card-img-3{
+   width: 112px;
+   height: 112px;
+   border-radius: 50%;
+}
+.feedback-icon{
+   color: #e76f51;
+}
+.clients-title{
+   color: #88cff6;
+}
+.clients-p{
+   font-size: 14px;
+}
+/* ================faq css start ============== */
+.faq-content span{
+   color: #e76f51;
+}
+/* ===================new collection area css start==================== */
+.new-collection-content span{
+   color: #e76f51;
+}
+.slide-p{
+   color: #ffffff;
+   font-size: 14px;
+   line-height: 21px;
+   letter-spacing: 1px; 
+
+}
+/* ===========contact css start ============ */
+.contact-content span{
+   color: #e76f51;
+}
+.contact-content p{
+   font-size: 14px;
+   line-height: 21px;
+   letter-spacing: 1px;
+}
+/* ==============------main css ends =========----------- */
+/* ===============footer css start====================== */
+footer p{
+   margin-bottom: 0;
+   font-size: 14px;
+   color: #ffffff;
+   font-weight: normal;
+   padding: 30px;
+}
+/* ===============footer css ends====================== */
